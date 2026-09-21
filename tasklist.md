@@ -8,9 +8,11 @@ Create and publish a Quartz-based wiki on GitHub with the title `Cyberbiosecurit
 
 - [ ] Confirm whether `https://github.com/grebbel/quartz` is the intended repository or a template to fork.
 - [ ] Decide whether the GitHub repository should be renamed from `quartz` to `cyberbiosecurity`.
-- [ ] Connect this workspace to the selected GitHub repository.
-- [ ] Confirm the deployment method, preferably GitHub Pages or the repository's existing Quartz workflow.
-- [ ] Verify that the site builds locally before publishing.
+- [x] Connect this workspace to `https://github.com/grebbel/quartz` as `origin`.
+- [x] Confirm the deployment method: the existing Cloudflare Pages workflow is configured for `main`.
+- [x] Verify that the site builds locally with `npx quartz build -d docs -v`.
+
+Phase 1 setup is complete. Repository ownership and the final public URL still need to be confirmed before publishing. The full `npm run check` is currently blocked by Prettier errors in the existing guidance document and workspace file; TypeScript and the Quartz build pass.
 
 ## Phase 2: Wiki structure and content
 
