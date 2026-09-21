@@ -16,19 +16,21 @@ Phase 1 setup is complete. Repository ownership and the final public URL still n
 
 ## Phase 2: Wiki structure and content
 
-- [ ] Define the initial page structure for the wiki:
-  - [ ] Home and project overview
-  - [ ] Definition of cyberbiosecurity
-  - [ ] Scope and key concepts
-  - [ ] Relevant sectors
-  - [ ] Target audiences
-  - [ ] Assessment tool and other outputs
-  - [ ] Bibliography
+- [x] Define the initial page structure for the wiki:
+  - [x] Home and project overview
+  - [x] Definition of cyberbiosecurity
+  - [x] Scope and key concepts
+  - [x] Relevant sectors
+  - [x] Target audiences
+  - [x] Assessment tool and other outputs
+  - [x] Bibliography
 - [ ] Review the Zotero folder `CyberBioSecurity` and identify the literature to include.
 - [ ] Export or convert the selected literature into Markdown pages or references suitable for Quartz.
-- [ ] Add consistent metadata, tags, authors, dates, and source links to each literature page.
-- [ ] Add citations and a bibliography to the relevant wiki pages.
-- [ ] Mark gaps that require further research, including definitions and applicable standards such as ISO guidance.
+- [x] Add consistent metadata and tags to the initial project pages.
+- [x] Add an initial bibliography with DOI links and local source references.
+- [x] Mark initial gaps for further research, including definitions and applicable standards such as ISO guidance.
+
+Phase 2 initial content is complete. The wiki now has a project homepage, five linked topic pages, and a four-source bibliography. The Zotero collection still needs to be reviewed and incorporated.
 
 ## Phase 3: Review and publication
 
