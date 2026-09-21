@@ -10,12 +10,15 @@
       "npx quartz": true,
       "/^cd '/Users/rtenhove/Documents/05_RIVM/05_WORKSPACE/P99/WP5 CyberBiosecurity/01_SOURCE' && python3 - <<'PY'\nfrom pathlib import Path\nfrom pypdf import PdfReader\nimport re\nfor f in sorted\\(Path\\('\\.'\\)\\.glob\\('\\*\\.pdf'\\)\\):\n    r=PdfReader\\(str\\(f\\)\\); t='\\\\n'\\.join\\(\\(p\\.extract_text\\(\\) or ''\\) for p in r\\.pages\\[:2\\]\\)\n    ls=\\[re\\.sub\\(r'\\\\s\\+',' ',x\\)\\.strip\\(\\) for x in t\\.splitlines\\(\\) if x\\.strip\\(\\)\\]\n    print\\('\\\\n###',f\\.name,'pages',len\\(r\\.pages\\)\\)\n    for x in ls\\[:18\\]: print\\(x\\[:180\\]\\)\n    print\\('LINKS', sorted\\(set\\(re\\.findall\\(r'\\(\\?i\\)\\(\\?:https\\?://\\|doi\\\\s\\*:\\\\s\\*\\|doi\\\\\\.org/\\)\\[\\^\\\\s<>\\\\\\]\\)\\}\\]\\+',t\\)\\)\\)\\)\nPY$/": {
         "approve": true,
-        "matchCommandLine": true,
+        "matchCommandLine": true
       },
       "/^cd '/Users/rtenhove/Documents/05_RIVM/05_WORKSPACE/P99/WP5 CyberBiosecurity/01_SOURCE' && python3 - <<'PY'\nfrom pypdf import PdfReader\nf='fbioe-06-00039\\.pdf'; t='\\\\n'\\.join\\(\\(p\\.extract_text\\(\\) or ''\\) for p in PdfReader\\(f\\)\\.pages\\[:2\\]\\)\nprint\\(t\\[:5000\\]\\)\nPY$/": {
         "approve": true,
-        "matchCommandLine": true,
+        "matchCommandLine": true
       },
+      "git remote": true,
+      "git rev-list": true,
+      "git push": true
     },
   },
 }
