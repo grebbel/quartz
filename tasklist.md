@@ -12,7 +12,7 @@ Create and publish a Quartz-based wiki on GitHub with the title `Cyberbiosecurit
 - [x] Confirm the deployment method: the existing Cloudflare Pages workflow is configured for `main`.
 - [x] Verify that the site builds locally with `npx quartz build -d docs -v`.
 
-Phase 1 setup is complete. Repository ownership and the final public URL still need to be confirmed before publishing. The full `npm run check` is currently blocked by Prettier errors in the existing guidance document and workspace file; TypeScript and the Quartz build pass.
+Phase 1 setup is complete. Repository ownership and the final public URL still need to be confirmed before publishing. The full `npm run check` now passes: TypeScript validation and Prettier checks are successful, and the Quartz build passes.
 
 ## Phase 2: Wiki structure and content
 
