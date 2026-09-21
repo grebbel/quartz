@@ -24,4 +24,3 @@ The content is an early research draft. Definitions, scope, standards, and liter
 - Research facilities
 - Public health and biotechnology organizations
 - Policy and security stakeholders in East and Central Africa
-
