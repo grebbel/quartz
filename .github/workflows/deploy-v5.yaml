@@ -1,9 +1,9 @@
-name: Deploy v5 Preview
+name: Deploy Cyberbiosecurity
 
 on:
   push:
     branches:
-      - v5
+      - main
   workflow_dispatch:
 
 permissions:
@@ -12,9 +12,8 @@ permissions:
 
 jobs:
   deploy-v5:
-    if: ${{ github.repository == 'jackyzha0/quartz' }}
     runs-on: ubuntu-latest
-    name: Deploy v5 to Cloudflare Pages
+    name: Deploy to Cloudflare Pages
     steps:
       - uses: actions/checkout@v6
         with:
@@ -58,7 +57,7 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          projectName: quartz
-          deploymentName: v5 Branch Preview
-          branch: v5
+          projectName: cyberbiosecurity
+          deploymentName: main
+          branch: main
           directory: public
