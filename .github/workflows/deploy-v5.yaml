@@ -3,7 +3,7 @@ name: Deploy Cyberbiosecurity
 on:
   push:
     branches:
-      - main
+      - v5
   workflow_dispatch:
 
 permissions:
