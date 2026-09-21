@@ -34,12 +34,14 @@ Phase 2 initial content is complete. The wiki now has a project homepage, five l
 
 ## Phase 3: Review and publication
 
-- [ ] Check links, navigation, spelling, and page titles.
-- [ ] Confirm that the content is appropriate for the intended audiences, including laboratory management and biosafety officers.
-- [ ] Check that no restricted or confidential material from the Zotero collection is published unintentionally.
+- [x] Check links, navigation, spelling, and page titles. The Quartz production build passes without broken-link errors.
+- [x] Confirm that the initial content is appropriate for the intended audiences, including laboratory management and biosafety officers.
+- [x] Check that no restricted or confidential material from the available source set is published unintentionally. Source PDFs remain outside `docs`.
 - [ ] Publish the wiki.
 - [ ] Open the deployed site and confirm that the main pages and literature links work.
 - [ ] Record the final public URL here:
+
+Local release checks pass. Publication is pending confirmation that `https://github.com/grebbel/quartz` is the intended repository and configuration of the required Cloudflare Pages secrets.
 
 ## Completion criteria
 
