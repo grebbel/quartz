@@ -17,9 +17,15 @@ This is a working definition for project 99, work package 5. It should be tested
 - **Cybersecurity:** confidentiality, integrity, and availability of digital systems and data.
 - **Biosafety:** prevention of unintentional exposure to biological agents or accidental release.
 - **Biosecurity:** prevention of loss, theft, misuse, or intentional release of biological materials, knowledge, or capabilities.
-- **Responsible biotechnology:** governance that considers safety, security, ethics, equity, and societal consequences.
+- **Responsible or dual-use biotechnology:** governance that considers safety, security, ethics, equity, and societal consequences.
 
-Cyberbiosecurity sits at the intersection of these dimensions. The relationship between them is a subject for further review rather than a claim that they are interchangeable.
+Cyberbiosecurity sits at the intersection of these dimensions and includes cyber-physical security where digital systems control or influence biological work. The relationship between these dimensions is a subject for further review rather than a claim that they are interchangeable.
+
+## Evidence and limitations
+
+The initial literature describes cyberbiosecurity as an interdisciplinary and pre-emptive field spanning technical, biological, organizational, and international-security concerns. The available sources also emphasize uncertainty: complex cyber-bio infrastructures create genuine security questions, but severe or catastrophic scenarios should not be presented as inevitable.
+
+See the [[bibliography|curated bibliography]] for the sources informing this working definition.
 
 ## Questions for review
 

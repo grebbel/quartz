@@ -2,9 +2,9 @@
 
 ## Updates:
 
-- 22-09-2026 Robert ten Hove v1.1
+- 22-09-2026 RtH v1.1
 
-- 21/09/2026 Robert ten Hove v1.0
+- 21/09/2026 RtH v1.0
 
 ## Project status
 
@@ -35,15 +35,10 @@ The initial scope covers the digital systems, data, people, procedures, and phys
 ### Sectors in scope
 
 - Pharmaceutical companies
-
 - Institutes of health
-
 - Research facilities
-
 - National defence
-
 - Public health and laboratory networks
-
 - Biotechnology and bio-economy organizations
 
 ### Risk surface
@@ -51,17 +46,13 @@ The initial scope covers the digital systems, data, people, procedures, and phys
 The knowledge base should consider risks across the full lifecycle of biological work, including:
 
 - Data generation, storage, analysis, and sharing
-
+- DNA synthesis industry
+- Critical infrastructures in following sectors; medical, pharmaceutical, biotech, veterinary and agricultural
 - Laboratory information management systems and connected instruments
-
 - Cloud services, software, and supply chains
-
 - Remote access and operational technology
-
 - Personnel, training, and organizational processes
-
 - Biological materials, protocols, and other sensitive knowledge
-
 - Incident response, continuity, and recovery
 
 ## Target audiences
@@ -71,13 +62,9 @@ The initial guidance is intended for organizations and professionals who manage,
 ### Primary audiences
 
 - Laboratory management
-
 - Biosafety and biosecurity officers
-
 - Research facility managers
-
 - Information security and IT teams supporting laboratories
-
 - Public health and biotechnology organizations
 
 ### Geographic focus
@@ -95,22 +82,22 @@ The scoring method, evidence requirements, review process, and relationship to e
 ### Proposed assessment areas
 
 - Asset and data inventory
-
 - Laboratory and information-system security
-
 - Laboratory equipment
-
 - AI integrated processes
-
+- Research of concern
 - Biosafety and biosecurity coordination
-
 - Access control and personnel practices
-
 - Supplier and cloud-service dependencies
-
 - Incident response and business continuity
-
 - Training, exercises, and continual improvement
+
+## Topics for dicussion
+
+Do the following topics fall within the scope of Cyberbiosecurity?
+
+- Mirror life
+- Synthetic life
 
 ## Bibliography
 

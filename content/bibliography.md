@@ -55,6 +55,7 @@ Source file: `01_SOURCE/ksag101.pdf`
 ## Literature review status
 
 - The four locally available sources have been catalogued and grouped by their primary contribution.
+- The sources collectively inform the working definition, scope, assessment areas, and governance perspective, including cyber-physical systems, AI and digital dependencies, supply chains, and international security.
 - The bibliography is a curated starting point, not a complete review of the Zotero collection.
 - Additional Zotero records should be added after their relevance, publication details, and publication rights have been checked.
 - Sources should be mapped to the wiki's definition, sectors, target audiences, and assessment-tool requirements during the next research pass.
