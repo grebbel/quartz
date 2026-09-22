@@ -7,9 +7,11 @@ tsconfig.tsbuildinfo
 .obsidian
 .quartz-cache
 private/
+/content/private/
 .replit
 replit.nix
 .quartz/
 quartz/cli/tui/dist/
 .turbo/
 *.code-workspace
+/tasklist.md
