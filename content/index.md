@@ -7,11 +7,11 @@ Cyberbiosecurity brings together cybersecurity, biosafety, biosecurity, and resp
 
 ## Explore the knowledge base
 
-- [[definition|Working definition]] - definitions and the boundaries of the field
-- [[scope-and-sectors|Scope and sectors]] - the systems and organizations in view
-- [[target-audiences|Target audiences]] - intended users of the guidance
-- [[assessment-tool|Assessment tool]] - planned output and design questions
-- [[bibliography|Bibliography]] - identified source literature
+- <a href="./definition.html">Working definition</a> - definitions and the boundaries of the field
+- <a href="./scope-and-sectors.html">Scope and sectors</a> - the systems and organizations in view
+- <a href="./target-audiences.html">Target audiences</a> - intended users of the guidance
+- <a href="./assessment-tool.html">Assessment tool</a> - planned output and design questions
+- <a href="./bibliography.html">Bibliography</a> - identified source literature
 
 ## Project status
 
