@@ -2,9 +2,9 @@
 
 ## Updates:
 
-- 22-09-2026	Robert ten Hove	v1.1
+- 22-09-2026 Robert ten Hove v1.1
 
-- 21/09/2026	Robert ten Hove	v1.0
+- 21/09/2026 Robert ten Hove v1.0
 
 ## Project status
 
@@ -16,9 +16,7 @@ Cyberbiosecurity is the protection of biological data, biological research, biot
 
 ## Dimensions to distinguish
 
-
-****
-
+---
 
 **Cybersecurity**: confidentiality, integrity, and availability of digital systems and data.
 
@@ -90,7 +88,7 @@ The project includes a focus on nations in East- and Central Africa. Guidance sh
 
 The planned project output is an assessment tool that helps an organization identify cyberbiosecurity risks, existing controls, and priority actions.
 
-The tool should be understandable to laboratory management and biosafety officers, usable with limited resources, and adaptable to research, health, pharmaceutical, and defence contexts. 
+The tool should be understandable to laboratory management and biosafety officers, usable with limited resources, and adaptable to research, health, pharmaceutical, and defence contexts.
 
 The scoring method, evidence requirements, review process, and relationship to existing standards are not yet defined.
 
@@ -100,7 +98,7 @@ The scoring method, evidence requirements, review process, and relationship to e
 
 - Laboratory and information-system security
 
-- Laboratory equipment 
+- Laboratory equipment
 
 - AI integrated processes
 
@@ -114,9 +112,7 @@ The scoring method, evidence requirements, review process, and relationship to e
 
 - Training, exercises, and continual improvement
 
-
 ## Bibliography
-
 
 1. Al-Eitan, Laith, Haytham Jaouni, and Ahmad Mihyar. 2025. Addressing Cyberbiosecurity Challenges in the Modern Era of Biotechnology and Artificial Intelligence. Jordan University of Science and Technology. Local source: PDF+Galley\_LaithAlEitan+et+al.pdf.
 
@@ -125,6 +121,3 @@ The scoring method, evidence requirements, review process, and relationship to e
 3. Mazeaud, Louison, and Andraz Kastelic. 2025. Cyberbiosecurity: A Matter of International Peace and Security? UNIDIR. DOI: 10.37559/WMD/25/CBW/02. Local source: UNIDIR\_Cyberbiosecurity\_matter\_international\_peace\_security.pdf.
 
 4. Murch, Randall S., William K. So, Wallace G. Buchholz, Sanjay Raman, and Jean Peccoud. 2018. Cyberbiosecurity: An Emerging New Discipline to Help Safeguard the Bioeconomy. Frontiers in Bioengineering and Biotechnology 6:39. DOI: 10.3389/fbioe.2018.00039. Local source: fbioe-06-00039.pdf.
-
-
-

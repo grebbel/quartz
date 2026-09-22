@@ -5,7 +5,9 @@ In **Quartz**, updating your site with new documents (Markdown notes) is a **man
 ---
 
 ## **1. Manual Update Process**
+
 ### **Step-by-Step Workflow**
+
 1. **Add New Documents:**
    - Place your new Markdown files (e.g., `new-note.md`) in the **`content/` folder** of your local Quartz repository.
    - Organize them into subfolders if needed (e.g., `content/research/`, `content/meetings/`).
@@ -37,15 +39,19 @@ In **Quartz**, updating your site with new documents (Markdown notes) is a **man
 ---
 
 ---
+
 ## **2. Automating Updates**
+
 While Quartz itself doesn’t auto-sync local files to GitHub, you can use **third-party tools** or **scripts** to streamline the process:
 
 ### **Option A: GitHub Desktop**
+
 - Use [GitHub Desktop](https://desktop.github.com/) to:
   - Drag and drop new Markdown files into the `content/` folder.
   - Commit and push changes with a GUI (no command line required).
 
 ### **Option B: Script for Bulk Updates**
+
 - Create a **Bash script** (e.g., `update_quartz.sh`) to automate the process:
   ```bash
   #!/bin/bash
@@ -60,19 +66,21 @@ While Quartz itself doesn’t auto-sync local files to GitHub, you can use **thi
   ```
 
 ### **Option C: Obsidian + Quartz Sync**
+
 - If you use **Obsidian** for note-taking:
   1. Store your Obsidian vault in the same folder as your Quartz `content/` directory.
   2. Use the **`npx quartz sync`** command to sync changes from Obsidian to Quartz.
   3. Commit and push the updates to GitHub.
 
 ### **Option D: GitHub Actions (Advanced)**
+
 - Set up a **GitHub Actions workflow** to auto-deploy your site when changes are pushed to a specific branch (e.g., `main`).
 - Example workflow file (`.github/workflows/deploy.yml`):
   ```yaml
   name: Deploy Quartz
   on:
     push:
-      branches: [ main ]
+      branches: [main]
   jobs:
     deploy:
       runs-on: ubuntu-latest
@@ -93,24 +101,33 @@ While Quartz itself doesn’t auto-sync local files to GitHub, you can use **thi
 - This will **automatically rebuild and deploy** your site whenever you push changes to the `main` branch.
 
 ---
+
 ---
+
 ## **3. Syncing with External Tools**
+
 ### **Obsidian**
+
 - Quartz is **compatible with Obsidian**:
   - Use the **Obsidian Git plugin** to automatically commit and push changes from Obsidian to your Quartz repository.
   - Enable **wikilinks** and **backlinks** in Obsidian to match Quartz’s linking system.
 
 ### **Roam Research**
+
 - Quartz supports **Roam Research compatibility**:
   - Export your Roam notes as Markdown and place them in the `content/` folder.
   - Use the `npx quartz sync` command to process Roam-style notes.
 
 ### **Notion (via Export)**
+
 - Export Notion pages as Markdown (using tools like [Notion2MD](https://github.com/souvikns/notion2md)) and add them to `content/`.
 
 ---
+
 ---
+
 ## **4. Best Practices**
+
 1. **Organize with Folders/Tags:**
    - Use subfolders (e.g., `content/projects/`, `content/literature/`) and **tags** (e.g., `#microbiology`, `#one-health`) to keep notes structured.
 
@@ -124,17 +141,22 @@ While Quartz itself doesn’t auto-sync local files to GitHub, you can use **thi
    - Regularly back up your `content/` folder to avoid losing notes.
 
 ---
----
-## **5. Troubleshooting**
-| Issue                          | Solution                                                                 |
-|--------------------------------|--------------------------------------------------------------------------|
-| New notes not appearing        | Check for typos in filenames or Markdown syntax. Run `npx quartz build` locally to debug. |
-| GitHub Pages not updating      | Ensure GitHub Pages is set to deploy from the correct branch (e.g., `main` or `gh-pages`). |
-| Broken wikilinks               | Verify that linked notes exist in `content/` and use the correct filename (case-sensitive). |
-| Build errors                   | Run `npm install` to update dependencies, then retry `npx quartz build`. |
 
 ---
+
+## **5. Troubleshooting**
+
+| Issue                     | Solution                                                                                    |
+| ------------------------- | ------------------------------------------------------------------------------------------- |
+| New notes not appearing   | Check for typos in filenames or Markdown syntax. Run `npx quartz build` locally to debug.   |
+| GitHub Pages not updating | Ensure GitHub Pages is set to deploy from the correct branch (e.g., `main` or `gh-pages`).  |
+| Broken wikilinks          | Verify that linked notes exist in `content/` and use the correct filename (case-sensitive). |
+| Build errors              | Run `npm install` to update dependencies, then retry `npx quartz build`.                    |
+
+---
+
 Would you like help:
+
 - Setting up **GitHub Actions** for auto-deployment?
 - Configuring **Obsidian or Roam Research** to sync with Quartz?
 - Creating a **custom script** for your workflow?
